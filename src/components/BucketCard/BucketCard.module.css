@@ -1,0 +1,42 @@
+.bucketCard {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 31px;
+  justify-content: space-between;
+}
+
+.leftSideCard {
+  display: flex;
+  align-items: center;
+}
+
+.itemTitle {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.rightSideCard {
+  display: flex;
+}
+
+.itemPrice {
+  color: #d58c51;
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.leftSideImg {
+  width: 122px;
+  height: 122px;
+  margin-right: 98px;
+}
+
+.bucketRemove {
+  border-radius: 50%;
+  background-color: #161516;
+  border: none;
+  cursor: pointer;
+}
